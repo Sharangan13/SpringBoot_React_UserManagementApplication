@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
-        <a className="navbar-brand px-3" href="#" >
+        <a className="navbar-brand px-3" href="/" >
           User Management Application
         </a>
         <button
@@ -19,7 +20,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-end px-3" id="navbarSupportedContent">
-        <button className="btn btn-outline-light">Add user</button>
+        <Link to="/adduser" className="btn btn-outline-light">Add user</Link>
       </div>
       </nav>
     </div>
