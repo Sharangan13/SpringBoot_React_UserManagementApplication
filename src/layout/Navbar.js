@@ -6,7 +6,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
         <a className="navbar-brand px-3" href="/" >
-          User Management Application
+        Employee Management Application
         </a>
         <button
           className="navbar-toggler"
